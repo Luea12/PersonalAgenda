@@ -1,0 +1,16 @@
+create database personal_agenda;
+create table expenses(id int(10) auto_increment primary key, object varchar(40), price double(10,2), month varchar(40));
+create table monthly_budgets( id int(10) auto_increment primary key, month varchar(15), total double(10,2), savings double(8,2));
+create table appoitnments(id int(10) auto_increment primary key, location varchar(50), description varchar(100), due_date varchar(50));
+insert into monthly_budgets(month, total, savings) values ("January", 0, 0);
+insert into monthly_budgets(month, total, savings) values ("February", 0, 0);
+insert into monthly_budgets(month, total, savings) values ("March", 0, 0);
+insert into monthly_budgets(month, total, savings) values ("April", 0, 0);
+insert into monthly_budgets(month, total, savings) values ("May", 0, 0);
+insert into monthly_budgets(month, total, savings) values ("June", 0, 0);
+insert into monthly_budgets(month, total, savings) values ("July", 0, 0);
+insert into monthly_budgets(month, total, savings) values ("August", 0, 0);
+insert into monthly_budgets(month, total, savings) values ("September", 0, 0);
+insert into monthly_budgets(month, total, savings) values ("October", 0, 0);
+insert into monthly_budgets(month, total, savings) values ("November", 0, 0);
+insert into monthly_budgets(month, total, savings) values ("December", 0, 0);
